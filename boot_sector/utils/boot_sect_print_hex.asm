@@ -30,7 +30,7 @@ step2:
     ror dx, 4 ; 0x1234 -> 0x4123 -> 0x3412 -> 0x2341 -> 0x1234
 
     ; increment index and loop
-    add cx, 1
+    inc cx
     jmp hex_loop
 
 end:

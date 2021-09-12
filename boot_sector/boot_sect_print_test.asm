@@ -18,8 +18,8 @@ call print_hex
 jmp $
 
 ; remember to include subroutines below the hang
-%include "boot_sect_print.asm"
-%include "boot_sect_print_hex.asm"
+%include "utils/boot_sect_print.asm"
+%include "utils/boot_sect_print_hex.asm"
 
 
 ; data

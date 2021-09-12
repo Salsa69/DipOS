@@ -12,7 +12,7 @@ start:
     int 0x10 ; 'al' already contains the char
 
     ; increment pointer and do next loop
-    add bx, 1
+    inc bx
     jmp start
 
 done:
